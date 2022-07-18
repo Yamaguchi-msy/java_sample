@@ -1,0 +1,25 @@
+//クローン(対象リポジトリの対象ブランチ)
+git clone -b (ブランチ名) (リポジトリのURL)
+※URLはリモートリポジトリ内の「code」のところからコピーできる。
+
+
+//コミット(ローカルリポジトリ内部で行う)
+git add .
+git commit -m "(コミットメッセージ内容)"
+【例】git commit -m "内容の変更"
+
+
+//プッシュ
+git push origin (ブランチ)
+【例】git push origin main
+
+
+//ブランチ追加
+git branch (新規ブランチ名)
+【例】git branch testBranch
+git push origin example
+【例】git push origin testBranch
+
+
+//リポジトリ追加
+自身のgithub.comの「Repositories」の「New」から作成する。
